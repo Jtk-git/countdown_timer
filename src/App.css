@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+.App-background{
+  background-image: url("./images/bg-stars.svg"), url("./images/pattern-hills.svg");
+  background-position:center top, center bottom;
+  background-repeat:no-repeat;
+  background-color:black;
+  background-size: 100%;
+  width:100%;
+  min-height:100vh;
+}
+
+h1{
+  font-family: 'Red Hat Text';
+  font-size: 30px;
+  letter-spacing: 5px;
+  color:white;
+  position:absolute;
+  top:15%;
+  left:50%;
+  transform:translate( -40% , 0)
+}
+
+.App-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate( -40% );
+}
+
+#fb-icon:hover{
+  background-color: hsl(345, 95%, 68%);
+}
+
+#insta-icon:hover{
+  fill : hsl(345, 95%, 68%);
+}
+
+#pin-icon:hover{
+  background-color: hsl(345, 95%, 68%);
+}
+
+
+
